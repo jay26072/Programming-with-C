@@ -1,14 +1,20 @@
-// W A P TO EVALUATE THE SERIES 1^2+2^2+3^2+â€¦â€¦+N^2.
+//W A P to evaluate the series 1^2+2^2+3^2+……+n^2
 
 #include<stdio.h>
 void main()
 {
-    int i,n,sum=0;
-    printf("Enter Any Number: ");
-    scanf("%d",&n);
-    for(i=1;i<=n;i++)
-    {
-        sum=sum+i*i;
-    }
-    printf("Sum Is: %d",sum);
+    int n,i;
+	int sum=0;
+	printf("Enter Any Number: ");
+	scanf("%d",&n);
+	sum = (n * (n + 1) * (2 * n + 1 )) / 6;
+	printf("Sum of the series : ");
+	for (i =1;i<=n;i++) 
+	{
+		if (i!= n)
+		   printf("%d^2 + ",i); 
+		else
+		   printf("%d^2 = %d ",i,sum);
+	}
+//    printf("Sum Is: %d",sum);
 }
