@@ -3,17 +3,28 @@
 #include<stdio.h>
 void main()
 {
+    int a,b,c;
+
+    printf("Enter Value Of A:");
+    scanf("%d",&a);
+
+    printf("Enter Value Of B:");
+    scanf("%d",&b);
+
+    printf("Enter Value Of C:");
+    scanf("%d",&c);
+
+    if(a>b && a>c)
+    {
+        printf("Maximum Value:%d",a);
+    }
+    else if(b>a && b>c)
+    {
+        printf("Maximum Value:%d",b);
+    }
+    else
+    {
+        printf("Maximum Value:%d",c);
+    }
     
 }
-
-/*
-
-echo "# Programming-with-C" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:jay26072/Programming-with-C.git
-git push -u origin main
-
-*/
