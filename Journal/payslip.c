@@ -1,5 +1,5 @@
 /* Write a c program to prepare pay slip using following data.Da = 10% of basic, Hra = 7.50% of  
-basic, Ma = 300, Pf = 12.50% of basic, Gross = basic + Da + Hra + Ma, Nt = Gross - Pf. */
+BASIC, MA = 300, PF = 12.50% OF BASIC, GROSS = BASIC + DA + HRA + MA, NT = GROSS - PF. */
 
 #include<stdio.h>
 void main()
