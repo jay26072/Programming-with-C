@@ -20,5 +20,5 @@ void main()
 			count=+1;
 		}
 	}
-	printf("\n %d",count);
+	printf("\n Person Having Height Greater Than 170 And Weight Less Than 50: %d",count);
 }

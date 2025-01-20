@@ -1,7 +1,6 @@
 // W A P TO READ MARKS FROM KEYBORD AND DISPLAY EQUIVALENT THAT ACCORDING TO FOLLOWING TABLE
 
 #include<stdio.h>
-
 void main()
 {
 	int m1,m2,m3,m4,m5,m6,total;
@@ -28,21 +27,22 @@ void main()
 	total=m1+m2+m3+m4+m5+m6;
 	per=total/6;
 	
-	printf("\n Percentage Is: %.2f",per);
+	printf("\nPercentage Is: %.2f",per);
 	
-	if(per<=70)
+	if(per>=70)
 	{
 		printf("\nDistinction");
 	}
-	else if(per<=60)
+	else if(per>=60)
 	{
 		printf("\nFirst Class");
 	}
-	else if(per<50)
+	else if(per>50)
 	{
 		printf("\nPass");
 	}
-	else{
+	else
+	{
 		printf("\nFail");
 	}
 }

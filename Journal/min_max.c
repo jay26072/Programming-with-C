@@ -16,15 +16,15 @@ void main()
 
     if(a>b && a>c)
     {
-        printf("Maximum Value:%d",a);
+        printf("\nMaximum Value:%d",a);
     }
     else if(b>a && b>c)
     {
-        printf("Maximum Value:%d",b);
+        printf("\nMaximum Value:%d",b);
     }
     else
     {
-        printf("Maximum Value:%d",c);
+        printf("\nMaximum Value:%d",c);
     }
     
 }

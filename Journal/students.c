@@ -16,7 +16,7 @@ void main()
 //		m3
 		scanf("%d",&arr3[i]);
 	}
-	printf("Student");
+	printf("\nId");
 	printf("\t\tSub1");
 	printf("\t\tSub2");
 	printf("\t\tSub3");

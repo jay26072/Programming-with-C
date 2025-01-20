@@ -8,7 +8,7 @@ void main()
     FILE *fp;
     char ch;
     
-    fp=fopen("file.txt", "r");
+    fp=fopen("All.txt", "r");
     if(fp == NULL)
     {
         printf("File not found\n");

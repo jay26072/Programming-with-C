@@ -6,15 +6,17 @@ void main()
     int roll[20],mark[20],i;
     for(i=0;i<20;i++)
     {
-        printf("Enter Roll No. %d: ",i+1);
+        printf("Enter Roll No: ");
         scanf("%d",&roll[i]);
         printf("Enter Marks of %d: ",i+1);
         scanf("%d",&mark[i]);
     }
-    printf("\nEnter Student's No And Marks");
+    printf("\nStudent's No And Marks\n");
+    printf("\nRoll No");
+    printf("\t\tMarks\n");
     for(i=0;i<20;i++)
     {
-        printf("\nRoll No. %d: %d",i+1,roll[i]);
-        printf("\nMarks of %d: %d",i+1,mark[i]);
+        printf("\n%d ",roll[i]);
+        printf("\t\t%d ",mark[i]);
     }
 }
