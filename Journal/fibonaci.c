@@ -1,4 +1,4 @@
-// W A P to generate pirnt n number of fibonaci series.
+// W A P to generate print n number of fibonaci series.
 
 #include<stdio.h>
 
